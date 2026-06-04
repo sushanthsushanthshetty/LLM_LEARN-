@@ -31,19 +31,3 @@ encoded_input1=tokenizer("hello ,how are you ?",
 )
 print(encoded_input)
 
-Token ID   Token                Meaning
-============================================================
-101        [CLS]                Special: Start of sequence
-145        HELLO                Word 1
-21678      ,                    Punctuation
-2162       I                    Word 2
-2346       '                    Apostrophe (separate!)
-117        M                    Letter M (part of I'M)
-146        SUSAN                Word 3 (part of SUSHANTH)
-112        ##THAN               Subword (## means continuation)
-150        ##-                  Dash (separate)
-156        ##TH                 Subword continuation
-13329      SHETTY               Word 4
-11612      ?                    Question mark
-...
-102        [SEP]                Special: End of sequence
